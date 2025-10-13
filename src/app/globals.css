@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 body {
-  @apply bg-primary-bg text-white overflow-x-hidden;
+  /* @apply bg-primary-bg text-white overflow-x-hidden; */
   background-image:
     linear-gradient(rgba(0, 224, 255, 0.05) 1px, transparent 1px),
     linear-gradient(to right, rgba(0, 224, 255, 0.05) 1px, transparent 1px);
