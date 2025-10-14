@@ -1,38 +1,28 @@
 @import "tailwindcss";
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 body {
-  /* @apply bg-primary-bg text-white overflow-x-hidden; */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
   background-image:
     linear-gradient(rgba(0, 224, 255, 0.05) 1px, transparent 1px),
     linear-gradient(to right, rgba(0, 224, 255, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+footer {
+  margin-top: auto;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
