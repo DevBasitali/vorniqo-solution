@@ -17,6 +17,13 @@
   font-display: swap;
 }
 
+:root {
+  --color-background: #09183E;
+  --color-primary: #00FFFF;
+  --color-text-light: #E2E8F0;
+  --color-text-dark: #94A3B8;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -25,13 +32,17 @@ html {
 
 body {
   /* font-family: 'tt-firs'; */
+ 
+  background-color: var(--color-background);
+  color: var(--color-text-light);
+
   margin: 0;
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
   background-image:
-    linear-gradient(rgba(0, 224, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(to right, rgba(0, 224, 255, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(0, 224, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to right, rgba(0, 224, 255, 0.02) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
