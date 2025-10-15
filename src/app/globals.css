@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
+
+@font-face {
+  font-family: 'integral-cf-bold';
+  src: url('/fonts/integral-cf-bold.woff2') format('woff2');
+  font-weight:bold;
+  font-style:normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tt-firs';
+  src: url('/fonts/tt.ttf') format('ttf');
+  font-weight:300;
+  font-style:normal;
+  font-display: swap;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -7,6 +24,7 @@ html {
 }
 
 body {
+  /* font-family: 'tt-firs'; */
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -15,6 +33,10 @@ body {
     linear-gradient(rgba(0, 224, 255, 0.05) 1px, transparent 1px),
     linear-gradient(to right, rgba(0, 224, 255, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
+}
+
+h1, h2, h3 {
+  font-family: 'integral-cf-bold';
 }
 
 #__next {
